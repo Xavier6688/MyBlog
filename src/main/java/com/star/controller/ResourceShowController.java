@@ -16,9 +16,9 @@ import javax.validation.Valid;
 
 /**
  * @Description: 资源显示页面控制器
- * @Date: Created in 20:42 2020/8/11
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 20:42 2021/8/11
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Controller

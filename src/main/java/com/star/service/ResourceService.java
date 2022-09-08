@@ -7,9 +7,9 @@ import java.util.List;
 
 /**
  * @Description: 资源库业务层接口
- * @Date: Created in 17:59 2020/8/2
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 17:59 2021/8/2
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 public interface ResourceService {

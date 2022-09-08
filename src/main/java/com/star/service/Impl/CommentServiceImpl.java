@@ -16,9 +16,9 @@ import java.util.List;
 
 /**
  * @Description: 博客评论业务层接口实现类
- * @Date: Created in 10:23 2020/6/23
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 10:23 2021/6/23
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Service
@@ -39,8 +39,8 @@ public class CommentServiceImpl implements CommentService {
 
     /**
      * @Description: 查询评论
-     * @Auther: ONESTAR
-     * @Date: 10:42 2020/6/23
+     * @Auther: XAVIER
+     * @Date: 10:42 2021/6/23
      * @Param: blogId：博客id
      * @Return: 评论消息
      */
@@ -62,8 +62,8 @@ public class CommentServiceImpl implements CommentService {
 
     /**
      * @Description: 查询出子评论
-     * @Auther: ONESTAR
-     * @Date: 10:43 2020/6/23
+     * @Auther: XAVIER
+     * @Date: 10:43 2021/6/23
      * @Param: childComments：所有子评论
      * @Param: parentNickname1：父评论姓名
      * @Return:
@@ -85,8 +85,8 @@ public class CommentServiceImpl implements CommentService {
 
     /**
      * @Description: 循环迭代找出子集回复
-     * @Auther: ONESTAR
-     * @Date: 10:44 2020/6/23
+     * @Auther: XAVIER
+     * @Date: 10:44 2021/6/23
      * @Param: chileId:子评论id
      * @Param: parentNickname1:子评论姓名
      * @Return:
@@ -119,12 +119,12 @@ public class CommentServiceImpl implements CommentService {
         if(!StringUtils.isEmpty(parentComment)){
             String parentNickname = parentComment.getNickname();
             String nickName = comment.getNickname();
-            String comtent = "亲爱的" + parentNickname + "，您在【ONESTARの客栈】的评论收到了来自" + nickName + "的回复！内容如下：" + "\r\n" + "\r\n" +  comment.getContent();
+            String comtent = "亲爱的" + parentNickname + "，您在【XAVIER的Blog】的评论收到了来自" + nickName + "的回复！内容如下：" + "\r\n" + "\r\n" +  comment.getContent();
             String parentEmail = parentComment.getEmail();
 
             // 发送邮件
             SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-            simpleMailMessage.setSubject("ONESTARの客栈评论回复");  //主题
+            simpleMailMessage.setSubject("XAVIER的Blog评论回复");  //主题
             simpleMailMessage.setText(comtent);   //内容
             simpleMailMessage.setTo(parentEmail); //接收者的邮箱
             simpleMailMessage.setFrom("onestaryxk@163.com");//发送者邮箱

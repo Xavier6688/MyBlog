@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * @Description: 友链显示控制器
- * @Date: Created in 21:12 2020/6/27
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 21:12 2021/6/27
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Controller

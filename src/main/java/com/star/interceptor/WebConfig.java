@@ -9,9 +9,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 /**
  * @Description: 指定拦截内容的配置类
- * @Date: Created in 23:42 2020/5/27
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 23:42 2021/5/27
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Configuration

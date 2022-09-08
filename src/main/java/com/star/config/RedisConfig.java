@@ -22,9 +22,9 @@ import java.time.Duration;
 /**
  * @ClassName: RedisConfig
  * @Description: TODO
- * @Author ONESTAR
- * @Date: 2020/11/9 19:41
- * @QQ群：530311074
+ * @Author XAVIER
+ * @Date: 2021/11/9 19:41
+ * @QQ群：暂无
  * @URL：https://onestar.newstar.net.cn/
  * @Version 1.0
  */

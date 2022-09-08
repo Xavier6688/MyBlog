@@ -7,9 +7,9 @@ import java.util.List;
 /**
  * @ClassName: MemoryService
  * @Description: 流年记业务层接口
- * @Author ONESTAR
- * @Date: 2020/10/20 9:06
- * @QQ群：530311074
+ * @Author XAVIER
+ * @Date: 2021/10/20 9:06
+ * @QQ群：暂无
  * @URL：https://onestar.newstar.net.cn/
  * @Version 1.0
  */

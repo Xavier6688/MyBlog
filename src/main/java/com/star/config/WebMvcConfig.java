@@ -10,9 +10,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * @ClassName: WebMvcConfig
  * @Description: TODO
- * @Author ONESTAR
+ * @Author XAVIER
  * @Date: 2021/1/22 21:53
- * @微信：YXK-ONESTAR
+ * @微信：HXM-XAVIER
  * @URL：https://onestar.newstar.net.cn/
  * @Version 1.0
  */

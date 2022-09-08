@@ -5,9 +5,9 @@ import java.util.Date;
 /**
  * @ClassName: Menory
  * @Description: 流年记实体类
- * @Author ONESTAR
- * @Date: 2020/10/13 22:37
- * @QQ群：530311074
+ * @Author XAVIER
+ * @Date: 2021/10/13 22:37
+ * @QQ群：暂无
  * @URL：https://onestar.newstar.net.cn/
  * @Version 1.0
  */

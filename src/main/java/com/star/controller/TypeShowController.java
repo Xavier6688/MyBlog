@@ -17,9 +17,9 @@ import java.util.List;
 
 /**
  * @Description: 分类页面控制器
- * @Date: Created in 10:03 2020/6/24
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 10:03 2021/6/24
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Controller

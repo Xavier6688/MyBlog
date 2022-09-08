@@ -4,9 +4,9 @@ import java.util.Date;
 
 /**
  * @Description: 首页博客信息实体类
- * @Date: Created in 9:39 2020/6/19
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 9:39 2021/6/19
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 public class FirstPageBlog {

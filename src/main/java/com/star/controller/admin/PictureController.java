@@ -17,9 +17,9 @@ import java.util.List;
 
 /**
  * @Description: 照片墙后台管理控制器
- * @Date: Created in 11:30 2020/6/15
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 11:30 2021/6/15
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Controller

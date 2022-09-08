@@ -6,9 +6,9 @@ import java.util.List;
 
 /**
  * @Description: 分类持久层接口
- * @Date: Created in 11:41 2020/6/2
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 11:41 2021/6/2
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 public interface TypeService {

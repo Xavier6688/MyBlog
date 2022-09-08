@@ -4,9 +4,9 @@ import java.util.Date;
 
 /**
  * @Description: 资源库实体类
- * @Date: Created in 14:33 2020/8/2
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 14:33 2021/8/2
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 public class Resources {

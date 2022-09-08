@@ -13,9 +13,9 @@ import java.util.List;
 
 /**
  * @Description: 照片墙业务层接口实现类
- * @Date: Created in 11:41 2020/6/15
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 11:41 2021/6/15
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Service

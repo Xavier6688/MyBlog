@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 
 /**
  * @Description: 用户业务层接口实现类
- * @Date: Created in 23:01 2020/5/26
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 23:01 2021/5/26
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Service
@@ -22,8 +22,8 @@ public class UserServiceImpl implements UserService {
 
     /**
      * @Description:
-     * @Auther: ONESTAR
-     * @Date: 21:25 2020/5/27
+     * @Auther: XAVIER
+     * @Date: 21:25 2021/5/27
      * @Param: username:用户名；password:密码
      * @Return: 返回用户对象
      */

@@ -9,9 +9,9 @@ import java.util.List;
 
 /**
  * @Description: 留言持久层接口
- * @Date: Created in 11:25 2020/4/16
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 11:25 2021/4/16
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Mapper

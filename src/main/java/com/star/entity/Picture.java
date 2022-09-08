@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 /**
  * @Description: 相册实体类
- * @Date: Created in 12:02 2020/6/1
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 12:02 2021/6/1
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 public class Picture implements Serializable {

@@ -17,9 +17,9 @@ import java.util.List;
 
 /**
  * @Description: 资源后台管理控制器
- * @Date: Created in 17:55 2020/8/2
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 17:55 2021/8/2
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Controller
@@ -97,8 +97,8 @@ public class ResourceController {
 
     /**
      * @description 发布资源
-     * @author ONESTAR
-     * @date 2020/12/1 9:07
+     * @author XAVIER
+     * @date 2021/12/1 9:07
      * @param id
      * @param attributes
      * @throws

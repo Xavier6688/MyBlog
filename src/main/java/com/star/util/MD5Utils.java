@@ -5,17 +5,17 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * @Description: MD5加密工具类
- * @Date: Created in 17:16 2020/5/27
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 17:16 2021/5/27
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 public class MD5Utils {
 
     /**
      * @Description: MD5加密
-     * @Auther: ONESTAR
-     * @Date: 17:19 2020/5/27
+     * @Auther: XAVIER
+     * @Date: 17:19 2021/5/27
      * @Param: 要加密的字符串
      * @Return: 加密后的字符串
      */

@@ -13,9 +13,9 @@ import java.util.Arrays;
 
 /**
  * @Description: 日志切面处理
- * @Date: Created in 23:31 2020/5/21
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 23:31 2021/5/21
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Aspect

@@ -9,9 +9,9 @@ import java.util.List;
 /**
  * @ClassName: MemoryDao
  * @Description: 流年记持久层接口
- * @Author ONESTAR
- * @Date: 2020/10/20 9:10
- * @QQ群：530311074
+ * @Author XAVIER
+ * @Date: 2021/10/20 9:10
+ * @QQ群：暂无
  * @URL：https://onestar.newstar.net.cn/
  * @Version 1.0
  */

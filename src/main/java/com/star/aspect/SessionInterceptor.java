@@ -16,9 +16,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * @ClassName: SessionInterceptor
  * @Description: TODO
- * @Author ONESTAR
+ * @Author XAVIER
  * @Date: 2021/1/22 21:18
- * @微信：YXK-ONESTAR
+ * @微信：HXM-XAVIER
  * @URL：https://onestar.newstar.net.cn/
  * @Version 1.0
  */

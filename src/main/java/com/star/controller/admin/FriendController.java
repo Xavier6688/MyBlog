@@ -17,9 +17,9 @@ import java.util.List;
 
 /**
  * @Description: 友链后台管理控制器
- * @Date: Created in 11:24 2020/6/14
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 11:24 2021/6/14
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Controller

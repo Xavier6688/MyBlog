@@ -1,41 +1,10 @@
-# myblog-mybaits
+# myblog
 个人博客系统（SpringBoot+Mybatis）
 
-博客地址：https://onestar.newstar.net.cn/
 
 **使用该源码希望能够注明原博客以及源码出处，并禁止商用，谢谢！**
 
-### 一、开发文档
-
-> 此开发文档是对应上一版本功能，最新版本还需要配置Redis和163邮件发送
-
-1、[【SpringBoot搭建个人博客】- 前端页面展示（一）](https://onestar.newstar.net.cn/blog/37)
-
-2、[【SpringBoot搭建个人博客】- 技术需求（二）](https://onestar.newstar.net.cn/blog/38)
-
-3、[【SpringBoot搭建个人博客】- 框架搭建（三）](https://onestar.newstar.net.cn/blog/41)
-
-4、[【SpringBoot搭建个人博客】- 后台登录（四）](https://onestar.newstar.net.cn/blog/42)
-
-5、[【SpringBoot搭建个人博客】- 实体类构建（五）](https://onestar.newstar.net.cn/blog/43)
-
-6、[【SpringBoot搭建个人博客】- 分类管理（六）](https://onestar.newstar.net.cn/blog/44)
-
-7、[【SpringBoot搭建个人博客】- 博客管理（七）](https://onestar.newstar.net.cn/blog/46)
-
-8、[【SpringBoot搭建个人博客】- 友链管理（八）](https://onestar.newstar.net.cn/blog/47)
-
-9、[【SpringBoot搭建个人博客】- 相册管理（九）](https://onestar.newstar.net.cn/blog/48)
-
-10、[【SpringBoot搭建个人博客】- 博客首页显示（十）](https://onestar.newstar.net.cn/blog/49)
-
-11、[【SpringBoot搭建个人博客】- 博客详情页面显示（十一）](https://onestar.newstar.net.cn/blog/50)
-
-12、[【SpringBoot搭建个人博客】- 其他页面显示（十二）](https://onestar.newstar.net.cn/blog/51)
-
-13、[【SpringBoot搭建个人博客】- 线上部署（十三）](https://onestar.newstar.net.cn/blog/52)
-
-### 二、技术栈
+### 一、技术栈
 #### 1.前端
 - JS框架：JQuery
 - CSS框架：[Semantic UI官网](https://semantic-ui.com/)
@@ -94,8 +63,6 @@
 
 #### 2.实体关系
 
-![image](https://note.youdao.com/yws/api/personal/file/CACBEF653E6745BF834B892952BFA816?method=download&shareKey=946ce6c8c2a0c84b107053cc254088f2)
-
 - 博客和分类是多对一的关系：一个博客对应一个分类，一个分类可以对应多个博客
 - 博客和用户是多对一的关系：一个博客对应一个用户，一个用户可以对应多个博客
 - 博客和评论是一对多的关系：一个博客可以对应多个评论，一个评论对应一个博客
@@ -104,33 +71,7 @@
 > 留言和评论是一样的，还有友链和相册数据表和其他表没有关联
 
 #### 3.实体属性
-博客属性：
-
-![image](https://note.youdao.com/yws/api/personal/file/CF5106DE22344BB481B3412A5BFAAAB9?method=download&shareKey=ae43526cd18465a53011fccbbe6e25c8)
-
-分类属性：
-
-![image](https://note.youdao.com/yws/api/personal/file/6C78F81369EB477B98D540266E5F4F58?method=download&shareKey=a820cfe6f3d6ebd860f0dff1b3bf8ba8)
-
-用户属性：
-
-![image](https://note.youdao.com/yws/api/personal/file/74338146706B4DB18C392C58C6287257?method=download&shareKey=2ad9cd5685461de2d57b983e85d97612)
-
-评论属性：
-
-![image](https://note.youdao.com/yws/api/personal/file/012FA484A82F47F5834BDB3FF7F1F668?method=download&shareKey=e971a831c76926da204a87ec5ac41a48)
-
-留言属性：
-
-![image](https://note.youdao.com/yws/api/personal/file/DC140E28066C4A54BAF8CDD351B4E479?method=download&shareKey=a39cdf3a8661671ac1a5de0b27a3e855)
-
-友链属性：
-
-![image](https://note.youdao.com/yws/api/personal/file/D4A2CC8BA02C4CFAA1279A8C5BF95B83?method=download&shareKey=fc02df1a79a3d6086be94758c5370918)
-
-相册属性：
-
-![image](https://note.youdao.com/yws/api/personal/file/0648E5B2CA874903919E01F8854A36E4?method=download&shareKey=ef3e79e99d83615b6020eb8e9356c8c2)
+博客属性、分类属性、用户属性、评论属性、留言属性、友链属性、相册属性
 
 
 - 博客属性：标题、内容、首图、标记、浏览次数、赞赏开启、版权开启、评论开启、是否发布、创建时间、更新时间、描述
@@ -142,38 +83,7 @@
 - 相册属性：图片地址、图片描述、图片名称、拍摄时间地点
 
 #### 4.表结构
-博客表：
-
-![image](https://note.youdao.com/yws/api/personal/file/6559F08528F24F7195279C5FEDF52644?method=download&shareKey=3aa33f0533b03214f163cd601fae0c9c)
-
-分类表：
-
-![image](https://note.youdao.com/yws/api/personal/file/D06135B93E2048B6924BD236BC255BDA?method=download&shareKey=f5f91a8cc8735f708cef2b1cae775231)
-
-用户表：
-
-![image](https://note.youdao.com/yws/api/personal/file/290F867E30DB4660B43DCF3DA29ED32F?method=download&shareKey=d180fe4a8e610b72bc250292a85ab1f9)
-
-评论表：
-
-![image](https://note.youdao.com/yws/api/personal/file/1B76BB89DD3545108A0116E9ABAFF35C?method=download&shareKey=44605f12ba7c296616de066f9d18edfc)
-
-
-留言表：
-
-![image](https://note.youdao.com/yws/api/personal/file/D29424D70CD44AD787B5B2BA74D0AEE2?method=download&shareKey=2070c81708cc3588f4de7fc303369df2)
-
-
-友链表：
-
-![image](https://note.youdao.com/yws/api/personal/file/0575501118154154BE53910A0D3F843B?method=download&shareKey=acf785dae919b80c235ddca9d6a1df38)
-
-
-相册表：
-
-![image](https://note.youdao.com/yws/api/personal/file/DE3BFFBA1DB5415F8C1B70E30B676BF0?method=download&shareKey=526904984ef591f552a72c6cb48e9404)
-
-
+博客表、分类表、用户表、评论表、留言表、友链表、相册表
 
 
 #### 4.建表语句
@@ -192,7 +102,7 @@
  Target Server Version : 50717
  File Encoding         : 65001
 
- Date: 30/04/2020 17:02:10
+ Date: 30/04/2021 17:02:10
 */
 
 SET NAMES utf8mb4;
@@ -316,8 +226,6 @@ CREATE TABLE `t_user`  (
 SET FOREIGN_KEY_CHECKS = 1;
 
 ```
-欢迎关注公众号：
+原项目地址：https://github.com/oneStarLR/myblog-mybatis
 
-![oneStar](https://images.newstar.net.cn/img/oneStar.jpg)
-
-博客地址：https://onestar.newstar.net.cn/
+# MyBlog

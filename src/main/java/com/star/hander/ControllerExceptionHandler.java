@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @Description: 拦截异常处理
- * @Date: Created in 21:40 2020/5/20
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 21:40 2021/5/20
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @ControllerAdvice
@@ -25,8 +25,8 @@ public class ControllerExceptionHandler {
 
     /**
      * @Description: 处理错误信息
-     * @Auther: ONESTAR
-     * @Date: 21:52 2020/5/20
+     * @Auther: XAVIER
+     * @Date: 21:52 2021/5/20
      * @Param: request：访问的异常URL
      * @Param: e：异常参数
      * @Return: 返回错误信息页面

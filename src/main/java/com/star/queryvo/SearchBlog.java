@@ -2,9 +2,9 @@ package com.star.queryvo;
 
 /**
  * @Description: 搜索博客管理列表
- * @Date: Created in 14:16 2020/6/8
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 14:16 2021/6/8
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 public class SearchBlog {

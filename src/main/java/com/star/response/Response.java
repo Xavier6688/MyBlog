@@ -5,9 +5,9 @@ import java.io.Serializable;
 /**
  * @ClassName: Response
  * @Description: TODO
- * @Author ONESTAR
+ * @Author XAVIER
  * @Date: 2021/1/22 22:55
- * @微信：YXK-ONESTAR
+ * @微信：HXM-XAVIER
  * @URL：https://onestar.newstar.net.cn/
  * @Version 1.0
  */

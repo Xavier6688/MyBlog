@@ -11,9 +11,9 @@ import java.util.List;
 
 /**
  * @Description: 分类业务层接口实现类
- * @Date: Created in 13:32 2020/6/2
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 13:32 2021/6/2
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Service

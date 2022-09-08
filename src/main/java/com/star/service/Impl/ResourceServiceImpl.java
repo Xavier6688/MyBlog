@@ -12,9 +12,9 @@ import java.util.List;
 
 /**
  * @Description: 资源库业务层接口实现类
- * @Date: Created in 18:00 2020/8/2
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 18:00 2021/8/2
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Service

@@ -10,9 +10,9 @@ import java.util.List;
 
 /**
  * @Description: 资源库持久层接口
- * @Date: Created in 18:05 2020/8/2
- * @Author: ONESTAR
- * @QQ群: 530311074
+ * @Date: Created in 18:05 2021/8/2
+ * @Author: XAVIER
+ * @QQ群: 暂无
  * @URL: https://onestar.newstar.net.cn/
  */
 @Mapper
